@@ -1,0 +1,17 @@
+{
+  "name": "email-automation",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "license": "MIT",
+  "dependencies": {
+    "bullmq": "^1.33.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "openai": "^3.0.0",
+    "@azure/msal-node": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
